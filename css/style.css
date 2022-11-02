@@ -1,0 +1,56 @@
+
+.sideBar{
+    width: 60px;
+    z-index: 222222222;
+}
+.side{
+    left: 0;
+    width:250px;
+    z-index:22222222;
+}
+.fa-solid , .fa-list-ul, ul li a, .item{
+    cursor: pointer;
+}
+.layer{
+    z-index:-111;
+}
+.ingrediant {
+    height:230px;
+}
+.itemLayer{
+    display: none;
+}
+#recipes  ,#tags{
+    list-style-type: none;
+    
+} 
+#recipes li  ,#tags li{
+    padding: 0;
+}
+.youtube{
+    background-color: red;
+}
+.form-control{
+    border:none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    border-radius:0;
+}
+#contact input{ 
+box-shadow:0 .5rem 1rem rgba(255,255,255,.1)!important
+}
+
+/* .body{
+   
+} */
+.loading{
+    overflow-y: hidden;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    z-index: 9999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
